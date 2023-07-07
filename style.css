@@ -1,0 +1,149 @@
+main {
+    font-size: 2lh;
+    text-align: center;
+    background-color: rgb(152, 169, 175);
+    margin-top: -60px;
+    margin-bottom: -50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    z-index: 999;
+}
+
+
+h1 {
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:azure;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.distraction-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #c9b1b1;
+}
+
+.distraction {
+    width: 100%;
+}
+
+.distraction-info {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.distraction p {
+    font-size: 1.2lh;
+}
+
+.distraction a {
+    width: 100%;
+    font-size: 1.2lh;
+    text-align: center;
+}
+
+img.distraction-image{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    width: 60%;
+    border: 5px solid #555;
+}
+
+ol {
+    color: rgb(123, 130, 136);
+    font-size: 1.2lh;
+}
+
+ul {
+    color: aliceblue;
+}
+
+.chicken-wings {
+    width: 100%;
+}
+
+
+.chicken-wings-info {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    row-gap: 50px;
+    place-items: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+img.chicken-wings-image {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    width: 40%;
+    border: 5px solid #555;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+
+img:hover {
+    border: 5px solid #e93e3e;
+}
+
+@media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+
+    ol {
+        color: rgb(123, 130, 136);
+        font-size: 0.6lh;
+    }
+    
+    ul {
+        color: aliceblue;
+        font-size: 0.6lh;
+    }
+
+    .distraction-info {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        row-gap: 50px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+    background-color: #c9b1b1;
+    width:100%;
+}
+
+a.footer {
+    width:100%;
+    font-size: 2lh;
+    text-align: center;
+    color:rgb(57, 71, 71);
+}
